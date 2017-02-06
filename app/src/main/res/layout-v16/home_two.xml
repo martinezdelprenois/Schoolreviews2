@@ -14,33 +14,6 @@
         android:layout_above="@+id/spinner_categories"
         />
 
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:theme="?attr/actionBarTheme"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/toolbar3" />
-
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner_categories"
-        android:layout_marginBottom="14dp"
-        android:paddingRight="500dp"
-        android:padding="10dp"
-        android:paddingStart="120dp"
-        android:paddingEnd="30dp"
-        android:paddingLeft="40dp"
-        android:paddingBottom="30dp"
-        android:visibility="visible"
-        android:layout_above="@+id/toolbar3"
-        tools:ignore="RtlHardcoded"
-
-        />
 
     <SearchView
         android:layout_width="match_parent"
@@ -101,15 +74,22 @@
         android:layout_toRightOf="@+id/education_level"
         android:layout_toEndOf="@+id/education_level" />
 
-    <com.google.android.gms.ads.AdView
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="28dp"
-        android:layout_marginStart="28dp"
-        android:id="@+id/adView"
-        android:layout_alignParentTop="true"
+        android:id="@+id/spinner_categories"
+        android:layout_marginBottom="21dp"
+        android:paddingRight="500dp"
+        android:padding="10dp"
+        android:paddingStart="120dp"
+        android:paddingEnd="30dp"
+        android:paddingLeft="40dp"
+        android:paddingBottom="30dp"
+        android:visibility="visible"
+        tools:ignore="RtlHardcoded"
+
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="54dp"
-        android:layout_above="@+id/search_button" />
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

@@ -26,9 +26,6 @@ public class Home_two extends Activity {
 categories();
         educations();
 
-        bar = (Toolbar)findViewById(R.id.toolbar3);
-        bar.inflateMenu(R.menu.menu_home_two);
-
     }
 
     public void categories(){
