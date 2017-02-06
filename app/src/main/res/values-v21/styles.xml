@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="bluing" parent="android:Theme.Black">
+    <style name="bluing" parent="android:Theme.DeviceDefault.Light">
         <item name="android:colorPrimary">@color/accent_material_light</item>
         <item name="android:colorBackground">@color/colorPrimaryDark</item>
         <item name="android:colorPrimaryDark">@color/legacy_primary_dark</item>

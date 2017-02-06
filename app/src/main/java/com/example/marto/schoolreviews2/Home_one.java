@@ -1,15 +1,15 @@
 package com.example.marto.schoolreviews2;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 /**
  * Created by marto on 31-Jan-17.
  */
 
-public class Home_one extends AppCompatActivity {
+public class Home_one extends Activity {
 
     @Override
     protected void onCreate(Bundle state){
