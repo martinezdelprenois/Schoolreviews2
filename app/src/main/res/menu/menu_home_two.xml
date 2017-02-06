@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <item android:title="Profile"
+       app:showAsAction="ifRoom"
+       android:id="@+id/profile"/>
+
+
+    <item android:title="Reviews"
+        app:showAsAction="never"
+        android:id="@+id/reviews" />
+    <item android:title="following"
+        app:showAsAction="never"
+        android:id="@+id/following" />
+    <item android:title="Share"
+        app:showAsAction="never"
+        android:id="@+id/sharing" />
+
+</menu>

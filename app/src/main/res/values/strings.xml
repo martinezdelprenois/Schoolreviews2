@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">School reviews 2</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="institution">INSTITUTION</string>
+    <string name="revieweer">REVIEWEER</string>
+    <string name="email">Email</string>
+    <string name="user_name">User name</string>
+    <string name="password">password</string>
+    <string name="registration_number">Registration number</string>
+    <string name="email_insitute">Email</string>
+    <string name="institute">Institute</string>
+    <string name="password_institute">password</string>
+    <string name="website_link">website link</string>
+    <string name="reviewer">REVIEWER</string>
+    <string name="categories">Categories</string>
+    <string name="education_level">Education level</string>
+    <string name="my_school_reviewer">My School Reviewer</string>
+    <string name="search">SEARCH</string>
+    <string name="search_">Search</string>
+    <!--suppress AndroidDomInspection -->
+    <string name="MY_SCHOOL_REVIEWER">MY SCHOOL REVIEWER</string>
+    
+    <string-array name="category">
+        <item> Cambridge </item>
+        <item> Government </item>
+        <item> Private </item>
+    </string-array>
+
+    <string-array name="education">
+        <item> Pre-school</item>
+        <item> Primary</item>
+        <item> Secondary</item>
+        <item> University</item>
+    </string-array>
+</resources>

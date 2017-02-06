@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bluing" parent="android:Theme.Black">
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+    </style>
+</resources>
